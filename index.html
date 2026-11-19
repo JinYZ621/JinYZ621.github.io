@@ -49,6 +49,50 @@ button {
 img {
     max-width: 100%;
 }
+    <style>
+    /* 原来的CSS样式 */
+
+    body {
+        margin: 0;
+    }
+
+    /* 其他样式 */
+
+
+    /* 人才招聘板块跳转 */
+    .careers-link {
+        display: block;
+        color: inherit;
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+    .careers-link .career-card {
+        transition: transform 0.3s ease, border-color 0.3s ease;
+    }
+
+    .careers-link .career-card:hover {
+        transform: translateY(-6px);
+    }
+
+    .careers-more {
+        margin-top: 35px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 15px;
+        color: #55c8ff;
+        font-size: 14px;
+        letter-spacing: 2px;
+        transition: 0.3s ease;
+    }
+
+    .careers-link:hover .careers-more {
+        letter-spacing: 3px;
+        color: #ffffff;
+    }
+
+</style>
 </style>
 </head>
 <body>
@@ -869,100 +913,59 @@ footer {
         </a >
     </div>
 </section>
- 
+
 <section class="section careers" id="careers">
-    <div class="reveal">
-        <div class="section-label">CAREER CONCEPT</div>
+    <a href="https://jinyz621.github.io/rencai"
+       class="careers-link"
+       aria-label="进入KMD卡米达人才招聘网站">
 
-        <h2 class="section-title">人才招聘</h2>
+        <div class="reveal">
+            <div class="section-label">CAREER CONCEPT</div>
 
-        <p class="section-desc">
-            汇聚创意与技术，探索数字娱乐的更多可能。
-            以下岗位仅为虚构项目中的岗位设计示例，
-            不代表真实招聘。
-        </p >
-    </div>
+            <h2 class="section-title">人才招聘</h2>
 
-    <div class="career-grid">
-
-        <div class="career-card reveal">
-            <div class="career-number">POSITION 01</div>
-            <h3>游戏客户端开发</h3>
-            <p>
-                参与游戏客户端架构、交互逻辑与性能优化的概念设计。
-            </p >
+            <p class="section-desc">
+                汇聚创意与技术，探索数字娱乐的更多可能。
+                以下岗位仅为虚构项目中的岗位设计示例，
+                不代表真实招聘。
+            </p>
         </div>
 
-        <div class="career-card reveal">
-            <div class="career-number">POSITION 02</div>
-            <h3>游戏美术设计</h3>
-            <p>
-                探索角色设计、场景概念、视觉风格与数字艺术创作。
-            </p >
+        <div class="career-grid">
+
+            <div class="career-card reveal">
+                <div class="career-number">POSITION 01</div>
+                <h3>游戏客户端开发</h3>
+                <p>
+                    参与游戏客户端架构、交互逻辑与性能优化的概念设计。
+                </p>
+            </div>
+
+            <div class="career-card reveal">
+                <div class="career-number">POSITION 02</div>
+                <h3>游戏美术设计</h3>
+                <p>
+                    探索角色设计、场景概念、视觉风格与数字艺术创作。
+                </p>
+            </div>
+
+            <div class="career-card reveal">
+                <div class="career-number">POSITION 03</div>
+                <h3>游戏策划</h3>
+                <p>
+                    设计游戏玩法、世界观、任务系统与玩家体验。
+                </p>
+            </div>
+
         </div>
 
-        <div class="career-card reveal">
-            <div class="career-number">POSITION 03</div>
-            <h3>游戏策划</h3>
-            <p>
-                设计游戏玩法、世界观、任务系统与玩家体验。
-            </p >
+        <div class="careers-more">
+            <span>探索更多招聘岗位</span>
+            <span>ENTER CAREERS →</span>
         </div>
 
-    </div>
+    </a>
 </section>
-
-<section class="section internship" id="internship">
-    <div class="internship-panel reveal">
-
-        <div class="section-label">INTERNSHIP CONCEPT</div>
-
-        <h2 class="section-title">未来实习计划</h2>
-
-        <p class="section-desc">
-            通过项目实践、技术探索与创意交流，
-            构建面向未来的学习型游戏开发环境。
-            本栏目为虚构实习计划展示，不提供真实录用或实习证明。
-        </p >
-
-        <div class="internship-list">
-
-            <div class="internship-item">
-                <h3>01 · 技术方向</h3>
-                <p>
-                    探索程序开发、引擎应用与交互技术。
-                </p >
-            </div>
-
-            <div class="internship-item">
-                <h3>02 · 美术方向</h3>
-                <p>
-                    学习数字绘画、角色设计与场景构建。
-                </p >
-            </div>
-
-            <div class="internship-item">
-                <h3>03 · 策划方向</h3>
-                <p>
-                    研究游戏机制、叙事设计与玩法创新。
-                </p >
-            </div>
-
-        </div>
-    </div>
-</section>
- 
-<section class="section news" id="news">
-    <div class="reveal">
-        <div class="section-label">STUDIO JOURNAL</div>
-
-        <h2 class="section-title">新闻动态</h2>
-
-        <p class="section-desc">
-            这里展示的是 KMD 虚构品牌项目的概念动态，
-            并非真实企业公告。
-        </p >
-    </div>
 
     <div class="news-list">
 
